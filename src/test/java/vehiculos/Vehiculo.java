@@ -13,8 +13,6 @@ public class Vehiculo {
 	
 	public Vehiculo() {
 		cantidadVehiculos++;
-		fabricante.cantidadVehiculos++;
-		fabricante.pais.cantidadVehiculos++;
 	}
 	
 	public Vehiculo(String placa, int puertas, int velocidadMaxima,

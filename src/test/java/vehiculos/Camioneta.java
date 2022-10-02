@@ -18,6 +18,8 @@ public class Camioneta extends Vehiculo{
 		velocidadMaxima = 90;
 		traccion = "4X4";
 		cantidadCamionetas++;
+		fabricante.cantidadVehiculos++;
+		fabricante.pais.cantidadVehiculos++;
 	}
 
 	public boolean isVolco() {

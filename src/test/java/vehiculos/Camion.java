@@ -18,6 +18,8 @@ public class Camion extends Vehiculo {
 		velocidadMaxima = 80;
 		traccion = "4X2";
 		cantidadCamiones++;
+		fabricante.cantidadVehiculos++;
+		fabricante.pais.cantidadVehiculos++;
 	}
 
 	public int getEjes() {

@@ -35,7 +35,7 @@ public class Fabricante {
 		Fabricante f = new Fabricante();
 		Fabricante x = f;
 		for (Fabricante fabrica : fabricas) {
-			if (fabrica.cantidadVehiculos > f.cantidadVehiculos) {
+			if (fabrica.cantidadVehiculos > x.cantidadVehiculos) {
 				x = fabrica;
 			}
 		}

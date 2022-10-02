@@ -18,6 +18,8 @@ public class Automovil extends Vehiculo {
 		velocidadMaxima = 100;
 		traccion = "FWD";
 		cantidadAutomoviles++;
+		fabricante.cantidadVehiculos++;
+		fabricante.pais.cantidadVehiculos++;
 	}
 
 	public int getPuestos() {
